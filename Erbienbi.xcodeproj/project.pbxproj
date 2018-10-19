@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EB1AE882178F1CA00A01FBB /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EB1AE872178F1CA00A01FBB /* Login.storyboard */; };
+		0EBA265C217960FF004A1284 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBA265B217960FF004A1284 /* LogInViewController.swift */; };
+		0EBA265E21796126004A1284 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBA265D21796126004A1284 /* RegisterViewController.swift */; };
 		8C150C012BFE4A6EE0D267CD /* Pods_Erbienbi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D55A5026BD3013A7D6F3E689 /* Pods_Erbienbi.framework */; };
 		F617015B2174DE3500D21D23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F617015A2174DE3500D21D23 /* AppDelegate.swift */; };
 		F617015D2174DE3500D21D23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F617015C2174DE3500D21D23 /* ViewController.swift */; };
@@ -23,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0EB1AE872178F1CA00A01FBB /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		0EBA265B217960FF004A1284 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		0EBA265D21796126004A1284 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		80D35180BA78EAD404B878A9 /* Pods-Erbienbi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Erbienbi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Erbienbi/Pods-Erbienbi.debug.xcconfig"; sourceTree = "<group>"; };
 		D55A5026BD3013A7D6F3E689 /* Pods_Erbienbi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Erbienbi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB2822C7DC5E231D2616E328 /* Pods-Erbienbi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Erbienbi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Erbienbi/Pods-Erbienbi.release.xcconfig"; sourceTree = "<group>"; };
@@ -103,6 +109,9 @@
 				F61701632174DE3600D21D23 /* LaunchScreen.storyboard */,
 				F617016C2174EC5C00D21D23 /* GoogleService-Info.plist */,
 				F61701662174DE3600D21D23 /* Info.plist */,
+				0EB1AE872178F1CA00A01FBB /* Login.storyboard */,
+				0EBA265B217960FF004A1284 /* LogInViewController.swift */,
+				0EBA265D21796126004A1284 /* RegisterViewController.swift */,
 			);
 			path = Erbienbi;
 			sourceTree = "<group>";
@@ -189,6 +198,7 @@
 				F61701652174DE3600D21D23 /* LaunchScreen.storyboard in Resources */,
 				F617016D2174EC5C00D21D23 /* GoogleService-Info.plist in Resources */,
 				F61701622174DE3600D21D23 /* Assets.xcassets in Resources */,
+				0EB1AE882178F1CA00A01FBB /* Login.storyboard in Resources */,
 				F61701602174DE3500D21D23 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,10 +257,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EBA265E21796126004A1284 /* RegisterViewController.swift in Sources */,
 				F61701772176402F00D21D23 /* EventTBCell.swift in Sources */,
 				F617015D2174DE3500D21D23 /* ViewController.swift in Sources */,
 				F617015B2174DE3500D21D23 /* AppDelegate.swift in Sources */,
 				F61701712174F9EB00D21D23 /* Space.swift in Sources */,
+				0EBA265C217960FF004A1284 /* LogInViewController.swift in Sources */,
 				F617016F2174EE7700D21D23 /* MainCell.swift in Sources */,
 				F617017521762D2600D21D23 /* Event.swift in Sources */,
 				F61701732174FB7D00D21D23 /* FireLogic.swift in Sources */,
@@ -399,7 +411,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7M9J2826XS;
+				DEVELOPMENT_TEAM = 4K7G68FE43;
 				INFOPLIST_FILE = Erbienbi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -418,7 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7M9J2826XS;
+				DEVELOPMENT_TEAM = 4K7G68FE43;
 				INFOPLIST_FILE = Erbienbi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
